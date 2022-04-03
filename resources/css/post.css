@@ -1,0 +1,72 @@
+
+.div-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.post-author{
+    font-weight: 700;
+}
+
+.post-date{
+    color: rgb(196, 199, 36);
+    /* rgb(75 85 99); */
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+}
+
+.post-body{
+    margin-bottom: 0.5rem;
+}
+
+.like-div{
+    display: flex;
+    align-items: center;
+}
+
+.like-unlike-button{
+    color: rgb(59 130 246);
+}
+
+.like-unlike-button:hover{
+    color: rgb(20, 70, 150);
+    text-decoration: underline;
+}
+
+.like{
+    font-weight: 400;
+}
+
+.posts-header{
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.user-posts-1{
+    width: 66.666667%;
+    min-height: 100px;
+}
+
+.user-posts-2{
+    background-color: white;
+    padding: 1.5rem;;
+    border-radius: 10px;
+}
+
+.button-edit{
+    color: rgb(59 130 246);
+    border:none;
+    outline:none;
+}
+
+.button-edit:hover{
+    color: rgb(20, 70, 150);
+    text-decoration: underline;
+}
+.button-edit:focus{
+    border:none;
+    outline: none;
+}

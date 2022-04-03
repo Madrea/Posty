@@ -1,0 +1,93 @@
+.main-div-comment{
+    display: block;
+}
+
+.comments-wrapper{
+    display: block;
+}
+
+.comments-div{
+
+}
+
+.comment-div{
+    background-color:rgb(224, 228, 238);
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.comment-name{
+    font-weight: 500;
+}
+
+.comment-date{
+    color: rgb(196, 199, 36);
+}
+
+.comment-top{
+    display: flex;
+    height: 20px;
+}
+
+.comment-buttons{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 0px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+.comment-body{
+    background-color: rgb(243 244 246);
+    width: 100%;
+    height: 70px;
+    border-width: 2px;
+    /* padding: 1rem; */
+    border-radius: 0.5rem;
+}
+
+.comment-body:focus{
+    outline: none !important;
+    border-color: rgb(20, 70, 150);
+}
+
+.comment-body-error{
+    background-color: rgb(243 244 246);
+    width: 100%;
+    border-width: 2px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-color: rgb(239 68 68);
+}
+
+.comment-body::-webkit-scrollbar {
+    display: none;
+}
+
+.post-comment{
+    color: white;
+    background-color:rgb(59 130 246);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.post-comment:hover{
+    background-color:rgb(20, 70, 150);
+}
+/*************/
+
+
+.dropdown-item{
+    color:rgb(59 130 246);
+}
+
+.dropdown-item:hover{
+    color: rgb(20, 70, 150);
+}
+
+.make-comment{
+    display: flex;
+    width: 100%;
+}
